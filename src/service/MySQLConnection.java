@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package models;
+package service;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Hoang Trung Hieu
+ * @author ADMIN
  */
 public class MySQLConnection {
     public static String DB_URL = "jdbc:mysql://localhost:3306/quan_ly_phan_anh";
@@ -28,7 +28,7 @@ public class MySQLConnection {
             System.out.println("Connect successfully!");
         } catch (SQLException ex) {
             System.out.println("Connect failure!");
-            Logger.getLogger(MySQLConnection.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(service.MySQLConnection.class.getName()).log(Level.SEVERE, null, ex);
         }
         return conn;
     }

@@ -3,17 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package models;
+package controller;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import models.PhanAnh;
+import service.MySQLConnection;
 
 /**
  *
- * @author THINKBOOK
+ * @author ADMIN
  */
 public class PhanAnhModify {
     
@@ -36,13 +38,13 @@ public class PhanAnhModify {
             stmt.execute();
             
         } catch (SQLException ex) {
-            Logger.getLogger(PhanAnhModify.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(controller.PhanAnhModify.class.getName()).log(Level.SEVERE, null, ex);
         } finally {
             if (stmt != null) {
                 try {
                     stmt.close();
                 } catch (SQLException ex) {
-                    Logger.getLogger(PhanAnhModify.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(controller.PhanAnhModify.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             
@@ -50,7 +52,7 @@ public class PhanAnhModify {
                 try {
                     conn.close();
                 } catch (SQLException ex) {
-                    Logger.getLogger(PhanAnhModify.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(controller.PhanAnhModify.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
         }

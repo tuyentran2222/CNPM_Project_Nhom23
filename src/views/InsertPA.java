@@ -6,12 +6,10 @@
 package views;
 
 import java.sql.Date;
-import java.util.ArrayList;
-import java.util.List;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 import models.PhanAnh;
-import models.PhanAnhModify;
+import controller.PhanAnhModify;
 
 /**
  *
