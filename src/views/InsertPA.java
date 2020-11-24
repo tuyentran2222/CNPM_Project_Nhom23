@@ -9,7 +9,7 @@ import java.sql.Date;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 import models.PhanAnh;
-import controller.PhanAnhModify;
+import controllers.PhanAnhModify;
 
 /**
  *
