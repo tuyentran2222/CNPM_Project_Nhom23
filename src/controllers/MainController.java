@@ -47,6 +47,7 @@ public class MainController {
                 break;
             case "PhanAnh":
                 //view = new // PhanAnhPanel(this.jfrMain);
+                view = new ThemPAPanel(this.jfrMain);
                 
                 break;
             case "PhanHoi":
@@ -113,7 +114,7 @@ public class MainController {
                     break;
                 case "PhanAnh":
                     //view = new // PhanAnhPanel(this.jfrMain);
-                    
+                    view = new ThemPAPanel(this.jfrMain);
                     break;
                 case "PhanHoi":
                    // view = new // PhanHoiPhanel(this.jfrMain);
