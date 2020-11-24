@@ -45,10 +45,10 @@ public class MainController {
                 view = new ThongKePanel(this.jfrMain);
                 break;
             case "PhanAnh":
-                view = new // PhanAnhPanel(this.jfrMain);
+                //view = new // PhanAnhPanel(this.jfrMain);
                 break;
             case "PhanHoi":
-                view = new // PhanHoiPhanel(this.jfrMain);
+                //view = new // PhanHoiPhanel(this.jfrMain);
                 break;
             default:
                 break;
@@ -110,10 +110,10 @@ public class MainController {
                     view = new ThongKePanel(this.jfrMain);
                     break;
                 case "PhanAnh":
-                    view = new // PhanAnhPanel(this.jfrMain);
+                    //view = new // PhanAnhPanel(this.jfrMain);
                     break;
                 case "PhanHoi":
-                    view = new // PhanHoiPhanel(this.jfrMain);
+                   // view = new // PhanHoiPhanel(this.jfrMain);
                     break;
                 default: 
                     break;
